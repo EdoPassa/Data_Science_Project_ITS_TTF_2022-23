@@ -1,14 +1,59 @@
-https://opendata.paris.fr/explore/dataset/secteurs-scolaires-colleges/information/?disjunctive.id_projet&disjunctive.zone_commune&disjunctive.annee_scol
-Secteurs scolaires – Collèges
-Jeu de données des secteurs scolaires des collèges Les secteurs sont les zones de répartition des élèves dans les établissements à Paris. 
-Précision : Les secteurs scolaires des collèges de la
-rent...
+'secteurs-scolaires-colleges' - 
+	Link: https://opendata.paris.fr/explore/dataset/secteurs-scolaires-colleges/information/?disjunctive.id_projet&disjunctive.zone_commune&disjunctive.annee_scol
+	Colonne: 
+		 - Type d'établissement - Année scolaire #Tipo d'istituzione e anno scolastico
+		 - Zone commune text #Quartiere
+		 - Etiquette int #Nome dell'istituto
+		 - Libellé établissement 1 text #Nome dell'istituto 1
+		 - Libellé établissement 2 text #Nome dell'istituto 2
+		 - Libellé établissement 3 text #Nome dell'istituto 3
+		 - Libellé établissement 4 text #Nome dell'istituto 4
+		 - Adresse 1 text #Indirizzo 1
+		 - Adresse 2 text #Indirizzo 2
+		 - Adresse 3 text #Indirizzo 3
+		 - Adresse 4 text #Indirizzo 4
+		 - Libellé text #Label
+		 - Annee Scolaire text #Anno scolastico
+		 - Type établissement text #Tipologia dell'istituzione
+		 - geo_shape geo_shape #Tipologia coordinate
+		 - geo_point_2d geo_point_2d #Tipologia coordinate
 
-https://opendata.paris.fr/explore/dataset/secteurs-scolaires-ecoles-elementaires/information/?disjunctive.id_projet&disjunctive.zone_commune&disjunctive.annee_scol
-Secteurs scolaires – Ecoles élémentaires
-Jeu de données des secteurs scolaires des écoles élémentaires Les secteurs sont les zones de répartition des élèves dans les établissements à Paris. Plus d'information sur les écoles élémentaires :...
+'secteurs-scolaires-ecoles-elementaires.csv'
+	Link: https://opendata.paris.fr/explore/dataset/secteurs-scolaires-ecoles-elementaires/information/?disjunctive.id_projet&disjunctive.zone_commune&disjunctive.annee_scol
+	Colonne:
+		 - Type d'établissement - Année scolaire #Tipo d'istituzione e anno scolastico
+		 - Zone commune text #Quartiere
+		 - Etiquette int #Nome dell'istituto
+		 - Libellé établissement 1 text #Nome dell'istituto 1
+		 - Libellé établissement 2 text #Nome dell'istituto 2
+		 - Libellé établissement 3 text #Nome dell'istituto 3
+		 - Libellé établissement 4 text #Nome dell'istituto 4
+		 - Adresse 1 text #Indirizzo 1
+		 - Adresse 2 text #Indirizzo 2
+		 - Adresse 3 text #Indirizzo 3
+		 - Adresse 4 text #Indirizzo 4
+		 - Libellé text #Label
+		 - Annee Scolaire text #Anno scolastico
+		 - Type établissement text #Tipologia dell'istituzione
+		 - geo_shape geo_shape #Tipologia coordinate
+		 - geo_point_2d geo_point_2d #Tipologia coordinate
 
-https://opendata.paris.fr/explore/dataset/secteurs-scolaires-ecoles-elementaires/information/?disjunctive.id_projet&disjunctive.zone_commune&disjunctive.annee_scol
-Secteurs scolaires – Ecoles élémentaires
-Jeu de données des secteurs scolaires des écoles élémentaires Les secteurs sont les zones de répartition des élèves dans les établissements à Paris. Plus d'information sur les écoles élémentaires :...
-
+'secteurs-scolaires-maternelles.csv'
+	Link: https://opendata.paris.fr/explore/dataset/secteurs-scolaires-ecoles-elementaires/information/?disjunctive.id_projet&disjunctive.zone_commune&disjunctive.annee_scol
+	Colonne:
+		 - Type d'établissement - Année scolaire #Tipo d'istituzione e anno scolastico
+		 - Zone commune text #Quartiere
+		 - Etiquette int #Nome dell'istituto
+		 - Libellé établissement 1 text #Nome dell'istituto 1
+		 - Libellé établissement 2 text #Nome dell'istituto 2
+		 - Libellé établissement 3 text #Nome dell'istituto 3
+		 - Libellé établissement 4 text #Nome dell'istituto 4
+		 - Adresse 1 text #Indirizzo 1
+		 - Adresse 2 text #Indirizzo 2
+		 - Adresse 3 text #Indirizzo 3
+		 - Adresse 4 text #Indirizzo 4
+		 - Libellé text #Label
+		 - Annee Scolaire text #Anno scolastico
+		 - Type établissement text #Tipologia dell'istituzione
+		 - geo_shape geo_shape #Tipologia coordinate
+		 - geo_point_2d geo_point_2d #Tipologia coordinate
