@@ -1,1 +1,50 @@
+- Dati Milano
 
+Nome: infogeo_stazioni_ferroviarie_localizzazione
+
+
+Link: https://dati.comune.milano.it/dataset/802a1d1f-4203-44c9-b9f5-dd8aa1f6bc3c/resource/8f3fd2c6-004b-4e23-8d51-852714ce8230/download/sistema_ferroviario_urbano_layer_0_stazioni__final.csv
+
+Desc:
+
+***
+
+Nome: ds538_tpl_percorsi.csv
+
+Link: https://dati.comune.milano.it/dataset/8bfe2015-2669-4796-9940-36b3c155b258/resource/d4408a03-ef86-40df-a4a9-e738d05e03e4/download/tpl_percorsi.csv
+
+Desc:
+
+***svsvdvdvd
+
+Nome:
+
+Link:
+
+Desc:
+
+***
+
+Nome:
+
+Link:
+
+Desc:
+
+***
+
+Nome:
+
+Link:
+
+Desc:
+
+***
+
+Nome:
+
+Link:
+
+Desc:
+
+***
