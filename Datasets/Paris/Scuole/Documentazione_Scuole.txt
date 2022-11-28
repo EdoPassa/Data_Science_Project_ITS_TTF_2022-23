@@ -1,0 +1,14 @@
+https://opendata.paris.fr/explore/dataset/secteurs-scolaires-colleges/information/?disjunctive.id_projet&disjunctive.zone_commune&disjunctive.annee_scol
+Secteurs scolaires – Collèges
+Jeu de données des secteurs scolaires des collèges Les secteurs sont les zones de répartition des élèves dans les établissements à Paris. 
+Précision : Les secteurs scolaires des collèges de la
+rent...
+
+https://opendata.paris.fr/explore/dataset/secteurs-scolaires-ecoles-elementaires/information/?disjunctive.id_projet&disjunctive.zone_commune&disjunctive.annee_scol
+Secteurs scolaires – Ecoles élémentaires
+Jeu de données des secteurs scolaires des écoles élémentaires Les secteurs sont les zones de répartition des élèves dans les établissements à Paris. Plus d'information sur les écoles élémentaires :...
+
+https://opendata.paris.fr/explore/dataset/secteurs-scolaires-ecoles-elementaires/information/?disjunctive.id_projet&disjunctive.zone_commune&disjunctive.annee_scol
+Secteurs scolaires – Ecoles élémentaires
+Jeu de données des secteurs scolaires des écoles élémentaires Les secteurs sont les zones de répartition des élèves dans les établissements à Paris. Plus d'information sur les écoles élémentaires :...
+
