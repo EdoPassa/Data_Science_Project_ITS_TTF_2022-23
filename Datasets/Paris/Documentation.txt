@@ -7,10 +7,47 @@
 		- OBJECTID: int #ID_Unico
 		- NUM_PAVE: str #Codice Quartiere
 		- IGDS_LEVEL: int '47' #?
-		- LIB_LEVEL: str 'ACCES METRO-PARKING - PIETONS' #Nome dataset provenienza
-		- LIB_CLASSE: str 'Accès métro-parking (piétons)' #Tipologia
+		- LIB_LEVEL: str 'ACCES METRO-PARKING - PIETONS' #Tipologia coordinate
+		- LIB_CLASSE: str 'Accès métro-parking (piétons)' #Tipologia coordinate
 		- geo_shape: geo_shape #Coordinate geografiche area
 		- geo_point_2d: geo_point_2d #Coordinate geografiche punto
 
-2 - 'plan-de-voirie-mobiliers-urbains-abris-voyageurs-points-darrets-bus.csv'
+2 - 'plan-de-voirie-mobiliers-urbains-abris-voyageurs-points-darrets-bus.csv' - Ha dentro un sacco di cose ma lo useremo per: Metro access, Railway track,  Bus stop post, Ticket dispenser, Tram
 	Link: https://opendata.paris.fr/explore/dataset/plan-de-voirie-mobiliers-urbains-abris-voyageurs-points-darrets-bus/information/?disjunctive.num_pave&disjunctive.lib_level
+
+	Colonne:
+		- OBJECTID: int #ID_Unico
+		- NUM_PAVE: str #Codice Quartiere
+		- IGDS_LEVEL: int '21, 22, 14, 11' #?
+		- LIB_LEVEL: str #Tipologia coordinate
+		- LIB_CLASSE: null #Tipologia coordinate
+		- geo_shape: geo_shape #Coordinate geografiche area
+		- geo_shape_2d: geo_point_2d #Coordinate geografiche punto
+
+3 - 'plan-de-voirie-pistes-cyclables-et-couloirs-de-bus.csv' - Piste ciclabili
+	Link: https://opendata.paris.fr/explore/dataset/plan-de-voirie-pistes-cyclables-et-couloirs-de-bus/information/?disjunctive.num_pave&disjunctive.lib_classe
+
+	Colonne:
+		- OBJECTID: int #ID_Unico
+		- NUM_PAVE: str #Codice Quartiere
+		- IGDS_LEVEL: int #?
+		- LIB_LEVEL: str #Tipologia coordinate
+		- LIB_CLASSE: null #Tipologia coordinate
+		- geo_shape: geo_shape #Coordinate geografiche area
+		- geo_shape_2d: geo_point_2d #Coordinate geografiche punto
+
+4 - 'bornes-dappel-taxi.csv' - Punti chiamata taxi 
+	Link: https://opendata.paris.fr/explore/dataset/bornes-dappel-taxi/information/?disjunctive.code_postal
+
+	Colonne: 
+		- num_officiel: str #id stazione
+		- nom_station: str #nome stazione
+		- adresse_complete: str #indirizzo in all-caps
+		- code_postal: str #CAP
+		- num_bat: str #Numero di telefono stazione
+		- x_l93: decimal #Coordinate x in lb93
+		- y_l93: decimal #Coordinate y in lb93
+		- geo_shape: geo_shape #Coordinate geografiche area
+		- geo_point_2d: geo_point_2d #Coordinate geografiche punto
+
+ 
