@@ -1,50 +1,151 @@
-- Dati Milano
+< Dati Milano >
 
-Nome: infogeo_stazioni_ferroviarie_localizzazione
+- Nome: Trasporto pubblico: localizzazione delle stazioni ferroviarie
 
 
-Link: https://dati.comune.milano.it/dataset/802a1d1f-4203-44c9-b9f5-dd8aa1f6bc3c/resource/8f3fd2c6-004b-4e23-8d51-852714ce8230/download/sistema_ferroviario_urbano_layer_0_stazioni__final.csv
-
-Desc:
-
-***
-
-Nome: ds538_tpl_percorsi.csv
-
-Link: https://dati.comune.milano.it/dataset/8bfe2015-2669-4796-9940-36b3c155b258/resource/d4408a03-ef86-40df-a4a9-e738d05e03e4/download/tpl_percorsi.csv
-
-Desc:
-
-***svsvdvdvd
-
-Nome:
-
-Link:
+Link: https://dati.comune.milano.it/dataset/ds80_infogeo_stazioni_ferroviarie_localizzazione_
 
 Desc:
 
 ***
 
-Nome:
+- Nome: ATM - Percorsi delle linee di superficie urbane
 
-Link:
+Link: https://dati.comune.milano.it/dataset/ds538_atm-percorsi-linee-di-superficie-urbane
+
+Desc: 
+
+linea (Linea): Numero della linea
+mezzo (Mezzo): Mezzo
+BUS
+FILOBUS
+TRAM
+percorso (Percorso): Codice numerico univoco del percorso
+verso (Verso): Verso del percorso
+As: ascendente
+Di: discendente
+nome (Nome): Nome del percorso
+tipo_perc (Tipo): Tipo percorso
+Barrato
+Canonico
+lung_km (Lunghezza Km): Lunghezza del percorso, in Km
+num_ferm (Numero fermate): Numero di fermate
+geom (Geometria): Geometria (Linestring)
+Il presente dataset è stato rilasciato dal comune di Milano.
+
+***
+
+- Nome: Stazioni BikeMi
+
+Link: https://dati.comune.milano.it/dataset/ds65_infogeo_aree_sosta_bike_sharing_localizzazione_
+
+Desc: 
+
+id (ID): Identificativo univoco numerico della stazione
+stato (Stato): Stato corrente della stazione
+numero (Numero): Numero della stazione BikeMI
+nome (Nome): Nome della stazione
+tipo (Tipo): Tipo di installazione
+Monofacciale
+Bifacciale
+stalli (Stalli): Numero di stalli
+sede (Sede): Collocazione della stazione
+Carreggiata
+Marciapiede
+id_via (Codice via): Codice della via dove è localizzata la stazione
+indirizzo (Indirizzo): Indirizzo
+civico (Civico): Numero civico
+zd_attuale (ZD/Municipio): Zona di decentramento / Municipio
+anno (Anno): Anno di realizzazione
+geom (Geometria): Geometria puntiforme
+
+***
+
+- Nome: Mobilità: localizzazione dei parcheggi di interscambio 
+
+Link: https://dati.comune.milano.it/dataset/ds45_infogeo_parcheggi_interscambio_localizzazione_
 
 Desc:
 
 ***
 
-Nome:
+- Nome: Mobilità: localizzazione dei parcheggi pubblici 
 
-Link:
+
+Link: https://dati.comune.milano.it/dataset/ds342-trafficotrasporti-parcheggi-pubblici-localizzazione
 
 Desc:
 
 ***
 
-Nome:
+- Nome: ATM - Percorsi linee metropolitane
 
-Link:
+Link: https://dati.comune.milano.it/dataset/ds539_atm-percorsi-linee-metropolitane
+
+Desc: 
+
+linea (Linea): Numero linea
+mezzo (Mezzo): Mezzo (METRO)
+percorso (Percorso): Codice numerico univoco del percorso
+nome (Nome): Nome del percorso
+lung_km (Lunghezza Km): Lunghezza in Km
+num_ferm (Numero fermate): Numero di fermate
+geom (Geometria): Geometria (Linestring)
+Il presente dataset è stato rilasciato dal comune di Milano.
+
+
+***
+
+- Nome: ATM - Fermate linee metropolitane
+
+Link: https://dati.comune.milano.it/dataset/ds535_atm-fermate-linee-metropolitane
 
 Desc:
+
+id (ID): ID numerico univoco della fermata
+nome (Nome): Nome della fermata
+linee (Linee): Codici delle linee che transitano per la fermata
+geom (Geometria): Geometria (Point)
+Il presente dataset è stato rilasciato dal comune di Milano
+
+***
+
+- Nome: ATM - Composizione percorsi linee metropolitane TABELLA JOIN X METRO
+
+Link: https://dati.comune.milano.it/dataset/ds533_atm-composizione-percorsi-linee-metropolitane
+
+Desc: 
+
+percorso (Percorso): Codice numerico del percorso
+num (Numero): Numero di sequenza della fermata lungo il percorso
+id_ferm (Fermata): ID numerico della fermata
+Il presente dataset è stato rilasciato dal comune di Milano.
+
+***
+
+- Nome: Sosta biciclette COMPLICATO BISOGNA TROVARE ALTRI DATI PER LE VIE ETC... MA è FIGO
+
+Link: https://dati.comune.milano.it/dataset/ds670-trasporto-pubblico-sosta-biciclette
+
+Desc: 
+
+Posizione e caratteristiche delle aree di sosta riservate ai velocipedi
+
+geom (Geometria): Geometria puntiforme
+municipio (Municipio): Numero municipio
+categorieveicoli (Categorie veicoli): Categorie di veicoli ammessi
+Velocipedi
+Condivisa (Velocipedi, Motocicli e Ciclomotori)
+numero_manufatti (Numero manufatti): Numero di manufatti presenti
+stalli_per_manufatto (Stalli per manufatto): Numero di stalli per ogni manufatto
+num_civico (Numero civico): Numero civico
+stalli_totali (Stalli totali): Numero di stalli totali per l'area
+id_via (Codice via): Codice via da toponomastica
+id (ID): Codice univoco area di sosta
+tipomanufatto (Tipo manufatto): Descrizione del tipo di manufatto
+ubicazione (Ubicazione): Descrizione dell'ubicazione dell'area
+stato (Stato): Stato
+Esistente
+Il presente dataset è stato rilasciato dal comune di Milano.
 
 ***
