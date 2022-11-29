@@ -1,0 +1,18 @@
+1 - 'donnee-data.gouv-2021-geographie2022-produit-le2022-07-27.csv'
+	Link: https://www.data.gouv.fr/fr/datasets/bases-communale-et-departementale-des-principaux-indicateurs-des-crimes-et-delits-enregistres-par-la-police-et-la-gendarmerie-nationales/
+
+	Le principali variabili della banca dati comunale sono:
+
+	- il codice geografico ufficiale del comune (COG_COMMUNE_2021)
+	- l'anno in cui è stata registrata la delinquenza (anno)
+	- Indicatore di criminalità (classe)
+	- l'unità di conto associata a questo indicatore (unità di conto) 
+	- il numero di delinquenze registrate (fatti) accertato nel comune della Commissione 
+	- il numero di incidenti per mille abitanti (o abitazioni in caso di furti con scasso) (rateper mille)
+	- la popolazione comunale dal censimento del comune (POP) per l'anno specificato da una variabile d'annata (millPOP)
+	- il numero di abitazioni dal censimento del comune (LOG) per l'anno specificato da una variabile d'epoca (millLOG)
+	- un indicatore che identifichi i comuni per i quali i dati sono diffusi (valore pubblicato)**. 
+		- Se questo indicatore assume il valore  "diff" allora  i fatti delle variabili  e  il tasso per mille sono compilati. 
+		- Al contrario, se questo indicatoreè "ndiff", allora queste due variabili e non vengono inserite. Tuttavia, sono indicati  il  numero medio di fatti e il tasso medio per mille, per classe, anno e dipartimento per i comuni non diffusi (rispettivamente  complementinfoval  e complementinfotaux
+
+	E' compresso pechè è troppo grosso per GitHub
