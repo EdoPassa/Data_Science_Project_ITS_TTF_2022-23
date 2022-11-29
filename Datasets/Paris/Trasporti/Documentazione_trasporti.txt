@@ -54,40 +54,61 @@
 	Link: https://opendata.paris.fr/explore/dataset/stationnement-sur-voie-publique-emprises/information/?disjunctive.regpri&disjunctive.regpar&disjunctive.typsta&disjunctive.arrond&disjunctive.zoneres&disjunctive.locsta&disjunctive.parite&disjunctive.signhor&disjunctive.signvert&disjunctive.confsign&disjunctive.typemob
 
 	Colonne:
-		-regpri: str #Priorità parcheggio
-		-regpar: str #Particolarità parcheggio
-		-typsta: str #Disposizione parcheggio(longitudinale, a spina di pesce, ecc...)
-		-arrond: int #Circoscrizione
-		-placal: int #Numero di posti calcolato
-		-plarel: int #Numero di parcheggi reali
-		-zoneres: str #Codice zona residenziale
-		-locsta: str #Tipologia parcheggio
-		-numvoie: int #Numero via
-		-typevoie: str #Tipologia via
-		-nomvoie: str #Nome via
-		-compnumvoie: str #Numero via addizionale
-		-locnum: str #Numero di localizzazione
-		-parite: str #Pari o dispari penso lato della strada
-		-lon: decimal #Longitudine
-		-lar: decimal #Latitudine
-		-surface_calculee: decimal #Superfice calcolata
-		-signhor: str #Segnaletica orizzontale
-		-signvert: str #Segnaletica verticale
-		-confsign: str #Conformità segnaletica
-		-typemob: str #Tipologia accessori
-		-nummob: int #Quantità accessori
-		-plage_hor1_debut: str #Time zone 1 start
-		-plage_hor1_fin: str #Time zone 1 end
-		-plage_hor2_debut: str #Time zone 2 start
-		-plage_hor2_fin: str #Time zone 2 end
-		-plage_hor3_debut: str #Time zone 3 start
-		-plage_hor3_fin: str #Time zone 3 end
-		-id: str #ID
-		-id_old: str #ID vecchio
-		-datereleve: date #Data ultimo cambiamento
-		-c_voie_vp: str #Codice strada 'Ville de Paris'
-		-n_sq_tv: str #Numero sequenziale tracciamento via
-		-numilot: str #Numero isolotto
-		-numiris: str #Numero IRES
-		-zoneasp: str #Codice zona ASP
-		-stv: str #
+		- regpri: str #Priorità parcheggio
+		- regpar: str #Particolarità parcheggio
+		- typsta: str #Disposizione parcheggio(longitudinale, a spina di pesce, ecc...)
+		- arrond: int #Circoscrizione
+		- placal: int #Numero di posti calcolato
+		- plarel: int #Numero di parcheggi reali
+		- zoneres: str #Codice zona residenziale
+		- locsta: str #Tipologia parcheggio
+		- numvoie: int #Numero via
+		- typevoie: str #Tipologia via
+		- nomvoie: str #Nome via
+		- compnumvoie: str #Numero via addizionale
+		- locnum: str #Numero di localizzazione
+		- parite: str #Pari o dispari penso lato della strada
+		- lon: decimal #Longitudine
+		- lar: decimal #Latitudine
+		- surface_calculee: decimal #Superfice calcolata
+		- signhor: str #Segnaletica orizzontale
+		- signvert: str #Segnaletica verticale
+		- confsign: str #Conformità segnaletica
+		- typemob: str #Tipologia accessori
+		- nummob: int #Quantità accessori
+		- plage_hor1_debut: str #Time zone 1 start
+		- plage_hor1_fin: str #Time zone 1 end
+		- plage_hor2_debut: str #Time zone 2 start
+		- plage_hor2_fin: str #Time zone 2 end
+		- plage_hor3_debut: str #Time zone 3 start
+		- plage_hor3_fin: str #Time zone 3 end
+		- id: str #ID
+		- id_old: str #ID vecchio
+		- datereleve: date #Data ultimo cambiamento
+		- c_voie_vp: str #Codice strada 'Ville de Paris'
+		- n_sq_tv: str #Numero sequenziale tracciamento via
+		- numilot: str #Numero isolotto
+		- numiris: str #Numero IRES
+		- zoneasp: str #Codice zona ASP
+		- stv: str #Codice 'Section Territoriale de Voirie'
+		- prefet: str #Prefettura
+		- n_voieadd: int #Primo numero della sezione della via
+		- n_voieadf: int #Ultimo numero della sezione della via
+		- geo_shape: geo_shape #Coordinate geografiche area
+		- geo_point_2d: geo_point_2d #Coordinate geografiche punto
+
+6 - 'liste-des-stations-de-services-de-vehicules' - Parcheggi di Mobiblib, il servizio di car-sharing di parigi
+	Link: https://opendata.paris.fr/explore/dataset/liste-des-stations-de-services-de-vehicules/information/?disjunctive.code_post&disjunctive.motorisation&disjunctive.fonctionnelle
+
+	Colonne:
+		- identifiant: str #codice identificativo
+		- code_post: str #CAP
+		- adresse: str #indirizzio
+		- operateur: str #operatore
+		- motorisation: str #tipologia motore veicoli
+		- fonctionnelle: str #se è funzionante
+		- url_operateur: str #url operatore
+		- complement_adr: str #indirizzo 2 se serve
+		- nb_vehicules: int #numero veicoli
+		- geo_shape: geo_shape #Coordinate geografiche area
+		- geo_point_2d: geo_point_2d #Coordinate geografiche punto
