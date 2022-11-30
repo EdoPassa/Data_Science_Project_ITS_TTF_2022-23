@@ -2,10 +2,19 @@
 
 - Nome: Trasporto pubblico: localizzazione delle stazioni ferroviarie
 
-
 Link: https://dati.comune.milano.it/dataset/ds80_infogeo_stazioni_ferroviarie_localizzazione_
 
 Desc:
+
+_id:
+Stazione: nome stazione
+ubicazione: Sotterranea/Superfice
+Linee: S che passano per la Stazione
+Municipio: cod. municipio
+ID_NIL: codice NIL
+NIL: codicelong.
+
+
 
 ***
 
@@ -67,6 +76,15 @@ Link: https://dati.comune.milano.it/dataset/ds45_infogeo_parcheggi_interscambio_
 
 Desc:
 
+Nome:
+Tab1: numero posti auto
+info: corrispondenza linee e bus
+zona:
+indirizzo:
+long x:
+lat y:
+
+
 ***
 
 - Nome: Mobilità: localizzazione dei parcheggi pubblici 
@@ -75,6 +93,15 @@ Desc:
 Link: https://dati.comune.milano.it/dataset/ds342-trafficotrasporti-parcheggi-pubblici-localizzazione
 
 Desc:
+
+id:
+nome:
+n_posti
+indirizzo
+comune
+tipo: pubblici/residenti/autorimessa convenzionata
+long:
+lat:
 
 ***
 
