@@ -7,21 +7,19 @@ descrizione:
     colonne [comuni]
         < XCoord >			
         < YCoord >
-        < COD_REG --> ISTAT Region code (Regione) 
-        < COD_PRO --> ISTAT Province code (Provincia)
         < PRO_COM --> ISTAT Municipality code (Comune) 
-        < SPEED_DOWN_ADSL_AVG --> Average of ADSL download speed
         < SPEED_DOWN_VDSL_AVG --> Average of VDSL download speed
         < SPEED_DOWN_EVDSL_AVG --> Average of EVDSL download speed 
-        < SPEED_DOWN_GREATEST_AVG --> Average of maximum download speed
         < COMUNE --> Municipality Name
         < PROVINCIA --> Province Name
-        < REGIONE --> Region Name
-        < DESI_WIDE_ADSL_PF1 --> households served by ADSL technology calculated with approximated methodology (served area is defined as selection of ISTAT census sampling areas where ADSL technology exists)
-        < DESI_WIDE_FTTC_PF1 -->	households served by FTTC technology calculated with approximated methodology (served area is defined as selection of ISTAT census sampling areas where FTTC technology exists)
-        < DESI_WIDE_FTTH_PF1 -->	households served by FTTH technology calculated with approximated methodology (served area is defined as selection of ISTAT census sampling areas where FTTH technology exists)
         < SHAPE_LENGTH --> Municipality perimeter
         < SHAPE_AREA -->	Municipality area
+
+        pulizia: 
+            - filtrare x milano
+            - eliminare colonna PROVINCIALE
+            - controllo null
+
 
     colonne[copertura 100m]
         < XCoord > 					
@@ -29,3 +27,5 @@ descrizione:
         < FTTH_COVERAGE --> Number of FTTH/FTTB termination (geographic different addresses) / 
                             number of telephone end points (geographic different addresses)
 					
+        pulizia:
+            - con le cordinate che ricaviamo dal dataset sui comuni, eliminare quelle che non sono di milano

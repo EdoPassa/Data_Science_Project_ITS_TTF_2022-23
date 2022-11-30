@@ -10,3 +10,8 @@ documentazione:
         < anno_rilevamento_reato >
         < Reati_denunciati_tipologia >
         < reati_denunciati >
+
+    pulizia:
+        - eliminare null
+        - eliminare riga con errore
+        - filtrare anno 2020

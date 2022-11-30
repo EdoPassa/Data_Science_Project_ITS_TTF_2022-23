@@ -3,3 +3,19 @@
 
 	Colonne da pulire: data(super inconsistente)
 		- Value: decimale (Variazione da gennaio 2015)
+
+- pubblici
+	da droppare{
+		ITTER107
+		Territorio
+		TIPO_DATO7
+		Tipo di indicatore --> fabbricato
+		CorreZ
+		CORREZIONE
+		COSTO_GRUPCATEG
+		TIME
+		FLAG
+		FLAGS
+	}
+
+	<ELIMINARE NULL>
