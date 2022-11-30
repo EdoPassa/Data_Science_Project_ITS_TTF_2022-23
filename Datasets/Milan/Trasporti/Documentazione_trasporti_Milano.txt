@@ -14,8 +14,6 @@ Municipio: cod. municipio
 ID_NIL: codice NIL
 NIL: codicelong.
 
-
-
 ***
 
 - Nome: ATM - Percorsi delle linee di superficie urbane
@@ -174,5 +172,3 @@ ubicazione (Ubicazione): Descrizione dell'ubicazione dell'area
 stato (Stato): Stato
 Esistente
 Il presente dataset è stato rilasciato dal comune di Milano.
-
-***
