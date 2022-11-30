@@ -1,0 +1,16 @@
+
+- svago e roba simile
+
+- nome: Attività commerciali: pubblici esercizi in piano
+
+link: https://dati.comune.milano.it/it/dataset/ds58_economia_pubblici_esercizi_in_piano
+
+documentazione:
+
+***
+
+- nome: Elenco strutture di ricovero e cura pubbliche 
+
+link: https://www.dati.lombardia.it/Sanit-/Elenco-strutture-di-ricovero-e-cura-pubbliche/jjbx-ccsh/data
+
+documentazione: 
