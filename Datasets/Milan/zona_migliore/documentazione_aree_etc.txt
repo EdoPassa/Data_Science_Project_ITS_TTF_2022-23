@@ -6,11 +6,41 @@
 link: https://dati.comune.milano.it/it/dataset/ds58_economia_pubblici_esercizi_in_piano
 
 documentazione:
+    colonne[pubblici_esercizi_in_piano]
+        < DescrizioneVia >
+        < civico >
+        < codicevia >
+        < denominazione_pe >
+        < insegna >
+        < ID_NIL --> id Quartiere
+        < NIL >
+        < MUNICIPIO >
+        < LONG_WGS84 >
+        < LAT_WGS84 >
+        < Location >
 
-***
+        ***
 
 - nome: Elenco strutture di ricovero e cura pubbliche 
 
 link: https://www.dati.lombardia.it/Sanit-/Elenco-strutture-di-ricovero-e-cura-pubbliche/jjbx-ccsh/data
 
 documentazione: 
+    colonne[strutture di ricovero e cura]
+        < ATS --> Codice territoriale ASL
+        < COD_ENTE --> Codice ente
+        < DENOM_ENTE --> Denominazione ente
+        < DENOM_STRUTTURA -->  Denominazione struttura
+        < COD_TIPO_STR --> Codice del tipo di struttura. Valori possibili: 4,11,12,31,32,33,51,52
+        < INDIRIZZO>	
+        < CAP>	
+        < LOCALITA>	
+        < LIV_EMERG -->	Codice livello di emergenza.Valori possibili:PPI(PuntodiPrimoIntervento)
+                                                                     PS(ProntoSoccorso)
+                                                                     DEA(Dipartimento Emergenza Accettazione)
+                                                                     EAS(Emergenza Alta Specialità)
+        < PS_PEDIATRICO -->	Presenza di Pronto Soccorso pediatrico (da fare booleano)
+
+***
+
+- 

@@ -4,3 +4,9 @@
 link: https://dati.comune.milano.it/dataset/ds564-reati-denunciati-all-autorita-giudiziaria-dalla-forze-di-polizia
 
 nome: Reati denunciati all'autorità giudiziaria dalla forze di polizia (2004 - 2019)
+
+documentazione: 
+    colonne:
+        < anno_rilevamento_reato >
+        < Reati_denunciati_tipologia >
+        < reati_denunciati >
