@@ -1,0 +1,72 @@
+Field Description
+
+XCoord			Centroid X
+
+YCoord			Centroid Y
+
+COD_REG			ISTAT Region code (Regione) 
+
+COD_PRO			ISTAT Province code (Provincia)
+
+PRO_COM			ISTAT Municipality code (Comune) 
+
+N_ADDRESSES_EVDSL	EVDSL number served addresses
+
+N_ADDRESSES_ADSL	ADSL number served addresses
+
+N_ADDRESSES_VDSL	VDSL number served addresses
+
+N_ADDRESSES_FTTH	FTTH number served addresses
+
+SPEED_DOWN_ADSL_AVG 	Average of ADSL download speed
+
+SPEED_DOWN_VDSL_AVG	Average of VDSL download speed
+
+SPEED_DOWN_EVDSL_AVG	Average of EVDSL download speed 
+
+SPEED_DOWN_GREATEST_AVG	Average of maximum download speed
+
+COMUNE 			Municipality Name
+
+PROVINCIA		Province Name
+
+REGIONE			Region Name
+
+PF1_SPEED_NULL 		households not served by wireline network
+
+PF1_SPEED_2		households served with speed (theoretically expected) in range 0-2 Mbps 
+
+PF1_SPEED_30		households served with speed (theoretically expected) in range 2-30 Mbps
+
+PF1_SPEED_100		households served with speed (theoretically expected) in range 30-100 Mbps
+
+PF1_SPEED_500		households served with speed (theoretically expected) in range 100-500 Mbps
+
+PF1_SPEED_1000		households served with speed (theoretically expected) in range 500-1000 Mbps
+
+N_ADDRESSES_BROADBAND	broadband number served addresses
+
+DESI_WIDE_ADSL_PF1	households served by ADSL technology calculated with approximated methodology (served area is defined as selection of ISTAT census sampling areas where ADSL technology exists)
+
+DESI_WIDE_FTTC_PF1	households served by FTTC technology calculated with approximated methodology (served area is defined as selection of ISTAT census sampling areas where FTTC technology exists)
+
+DESI_WIDE_FTTH_PF1	households served by FTTH technology calculated with approximated methodology (served area is defined as selection of ISTAT census sampling areas where FTTH technology exists)
+
+SHAPE_LENGTH		Municipality perimeter
+
+SHAPE_AREA		Municipality area
+
+PF1			Households (ISTAT PF1)
+
+P1			Inhabitant (ISTAT D1)
+	
+E1 			Total Buildings and complexes of buildings (ISTAT E1)
+
+E2 			Buildings and complexes of buildings used (ISTAT E2)
+
+E3 			Buildings for residential use (ISTAT E3)
+
+
+N.B. Some fields are not always available (e.g. Municipality Name in Region export)
+
+
