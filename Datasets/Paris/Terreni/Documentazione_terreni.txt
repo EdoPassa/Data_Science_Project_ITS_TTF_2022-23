@@ -1,0 +1,24 @@
+'emprise-batie-et-non-batie'
+	Link: https://opendata.paris.fr/explore/dataset/emprise-batie-et-non-batie/information/
+	Colonne:
+		 - OBJECTID #ID
+		 - C_NAT int #
+		 - L_NAT text #
+		 - C_NAT_I text #
+		 - L_NAT_I text #
+		 - C_SRC text #
+		 - L_SRC text #
+		 - X decimal #
+		 - Y decimal #
+		 - N_AR decimal #
+		 - N_QU decimal #
+		 - D_CRE datetime #
+		 - D_MAJ datetime #
+		 - Sequential identifier int #
+		 - District containing the building int #
+		 - Plot containing the building int #
+		 - District containing the building int #
+		 - SHAPE.AREA decimal # 
+		 - SHAPE.LEN decimal#
+		 - geo_shape geo_shape #coordinate geografiche
+		 - geo_point_2d geo_point_2d #coordinate geografiche
