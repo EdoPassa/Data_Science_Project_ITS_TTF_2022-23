@@ -1,0 +1,5 @@
+1-Costi di costruzione (base 2015=100)
+	Link: http://dati.istat.it/Index.aspx?DataSetCode=DCSC_FABBRESID_1&Lang=it
+
+	Colonne da pulire: data(super inconsistente)
+		- Value: decimale (Variazione da gennaio 2015)
