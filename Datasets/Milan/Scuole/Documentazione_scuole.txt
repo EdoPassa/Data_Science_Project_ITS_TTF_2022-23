@@ -1,0 +1,4 @@
+1 - localizzazione_delle_scuole_primarie.csv 
+	Link: https://dati.comune.milano.it/dataset/ds40-infogeo-scuole-primarie-localizzazione
+
+	Colonne: 
