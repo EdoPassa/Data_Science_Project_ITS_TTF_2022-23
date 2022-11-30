@@ -1,4 +1,53 @@
 1 - localizzazione_delle_scuole_primarie.csv 
 	Link: https://dati.comune.milano.it/dataset/ds40-infogeo-scuole-primarie-localizzazione
 
-	Colonne: 
+	Colonne: 	ANNOSCOL
+				CODICE
+				DENOMINAZIONE
+				GRADO
+				TIPO
+				PARITARIA
+				INDIRIZZO
+				CODVIA
+				MUNICIPIO
+				ID_NIL
+				NIL
+				LONG_X_4326
+				LAT_Y_4326
+				Location
+
+2 - localizzazione_delle_scuole_infanzia.csv
+	Link: https://dati.comune.milano.it/dataset/ds671-infogeo-scuole-infanzia-localizzazione
+
+	Colonne: 	ANNOSCOL
+				CODICE
+				DENOMINAZIONE
+				GRADO
+				TIPO
+				PARITARIA
+				INDIRIZZO
+				CODVIA
+				MUNICIPIO
+				ID_NIL
+				NIL
+				LONG_X_4326
+				LAT_Y_4326
+				Location
+
+3 - localizzazione_delle_scuole_secondarie_I_grado.csv
+	Link: https://dati.comune.milano.it/dataset/ds46-infogeo-scuole-secondarie-i-grado-localizzazione
+
+	Colonne:	ANNOSCOL
+				CODICE
+				DENOMINAZIONE
+				GRADO
+				TIPO
+				PARITARIA
+				INDIRIZZO
+				CODVIA
+				MUNICIPIO
+				ID_NIL
+				NIL
+				LONG_X_4326
+				LAT_Y_4326
+				Location
