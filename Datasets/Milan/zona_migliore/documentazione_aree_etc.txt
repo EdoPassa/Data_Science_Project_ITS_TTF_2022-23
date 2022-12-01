@@ -38,6 +38,8 @@ documentazione:
                                                                      EAS(Emergenza Alta Specialità)
         < PS_PEDIATRICO -->	Presenza di Pronto Soccorso pediatrico (da fare booleano)
 
+        AGGIUNGERE NIL X VIA
+
         pulizia:
             - filtrare x milano
 ***
