@@ -6,11 +6,7 @@ Link: https://dati.comune.milano.it/dataset/ds80_infogeo_stazioni_ferroviarie_lo
 
 Desc:
 
-_id:
 Stazione: nome stazione
-ubicazione: Sotterranea/Superfice
-Linee: S che passano per la Stazione
-Municipio: cod. municipio
 ID_NIL: codice NIL
 NIL: codicelong.
 
@@ -27,17 +23,9 @@ mezzo (Mezzo): Mezzo
 BUS
 FILOBUS
 TRAM
-percorso (Percorso): Codice numerico univoco del percorso
-verso (Verso): Verso del percorso
-As: ascendente
-Di: discendente
 nome (Nome): Nome del percorso
-tipo_perc (Tipo): Tipo percorso
-Barrato
-Canonico
-lung_km (Lunghezza Km): Lunghezza del percorso, in Km
-num_ferm (Numero fermate): Numero di fermate
-geom (Geometria): Geometria (Linestring)
+long:
+lat:
 Il presente dataset è stato rilasciato dal comune di Milano.
 
 ***
@@ -48,23 +36,10 @@ Link: https://dati.comune.milano.it/dataset/ds65_infogeo_aree_sosta_bike_sharing
 
 Desc: 
 
-id (ID): Identificativo univoco numerico della stazione
-stato (Stato): Stato corrente della stazione
 numero (Numero): Numero della stazione BikeMI
 nome (Nome): Nome della stazione
-tipo (Tipo): Tipo di installazione
-Monofacciale
-Bifacciale
-stalli (Stalli): Numero di stalli
-sede (Sede): Collocazione della stazione
-Carreggiata
-Marciapiede
-id_via (Codice via): Codice della via dove è localizzata la stazione
-indirizzo (Indirizzo): Indirizzo
-civico (Civico): Numero civico
-zd_attuale (ZD/Municipio): Zona di decentramento / Municipio
-anno (Anno): Anno di realizzazione
-geom (Geometria): Geometria puntiforme
+long:
+lat:
 
 ***
 
@@ -76,12 +51,8 @@ Desc:
 
 Nome:
 Tab1: numero posti auto
-info: corrispondenza linee e bus
-zona:
-indirizzo:
 long x:
 lat y:
-
 
 ***
 
@@ -92,12 +63,8 @@ Link: https://dati.comune.milano.it/dataset/ds342-trafficotrasporti-parcheggi-pu
 
 Desc:
 
-id:
 nome:
 n_posti
-indirizzo
-comune
-tipo: pubblici/residenti/autorimessa convenzionata
 long:
 lat:
 
@@ -110,28 +77,11 @@ Link: https://dati.comune.milano.it/dataset/ds539_atm-percorsi-linee-metropolita
 Desc: 
 
 linea (Linea): Numero linea
-mezzo (Mezzo): Mezzo (METRO)
 percorso (Percorso): Codice numerico univoco del percorso
 nome (Nome): Nome del percorso
-lung_km (Lunghezza Km): Lunghezza in Km
-num_ferm (Numero fermate): Numero di fermate
-geom (Geometria): Geometria (Linestring)
+long:
+lat:
 Il presente dataset è stato rilasciato dal comune di Milano.
-
-
-***
-
-- Nome: ATM - Fermate linee metropolitane
-
-Link: https://dati.comune.milano.it/dataset/ds535_atm-fermate-linee-metropolitane
-
-Desc:
-
-id (ID): ID numerico univoco della fermata
-nome (Nome): Nome della fermata
-linee (Linee): Codici delle linee che transitano per la fermata
-geom (Geometria): Geometria (Point)
-Il presente dataset è stato rilasciato dal comune di Milano
 
 ***
 
@@ -148,7 +98,23 @@ Il presente dataset è stato rilasciato dal comune di Milano.
 
 ***
 
-- Nome: Sosta biciclette COMPLICATO BISOGNA TROVARE ALTRI DATI PER LE VIE ETC... MA è FIGO
+- Nome: ATM - Fermate linee metropolitane
+
+Link: https://dati.comune.milano.it/dataset/ds535_atm-fermate-linee-metropolitane
+
+Desc:
+
+id (ID): ID numerico univoco della fermata
+nome (Nome): Nome della fermata
+long:
+lat:
+Il presente dataset è stato rilasciato dal comune di Milano
+
+
+
+***
+
+- Nome: Sosta biciclette
 
 Link: https://dati.comune.milano.it/dataset/ds670-trasporto-pubblico-sosta-biciclette
 
@@ -156,19 +122,20 @@ Desc:
 
 Posizione e caratteristiche delle aree di sosta riservate ai velocipedi
 
-geom (Geometria): Geometria puntiforme
-municipio (Municipio): Numero municipio
-categorieveicoli (Categorie veicoli): Categorie di veicoli ammessi
-Velocipedi
-Condivisa (Velocipedi, Motocicli e Ciclomotori)
-numero_manufatti (Numero manufatti): Numero di manufatti presenti
-stalli_per_manufatto (Stalli per manufatto): Numero di stalli per ogni manufatto
-num_civico (Numero civico): Numero civico
-stalli_totali (Stalli totali): Numero di stalli totali per l'area
-id_via (Codice via): Codice via da toponomastica
-id (ID): Codice univoco area di sosta
-tipomanufatto (Tipo manufatto): Descrizione del tipo di manufatto
-ubicazione (Ubicazione): Descrizione dell'ubicazione dell'area
-stato (Stato): Stato
-Esistente
+stalli_per_manufatto (Stalli per manufatto): Numero di stalli (veicoli) per ogni manufatto
+long:
+lat:
 Il presente dataset è stato rilasciato dal comune di Milano.
+
+***
+
+- nome: Nuclei d'Identità Locale (NIL) VIGENTI - PGT 2030
+
+link: https://dati.comune.milano.it/it/dataset/ds964-nil-vigenti-pgt-2030
+
+documentazione:
+
+ID_NIL		
+NIL	
+LONG_X_		
+LAT_Y_

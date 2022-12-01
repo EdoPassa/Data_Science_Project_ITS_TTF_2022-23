@@ -7,13 +7,9 @@ descrizione:
     colonne [comuni]
         < XCoord >			
         < YCoord >
-        < PRO_COM --> ISTAT Municipality code (Comune) 
         < SPEED_DOWN_VDSL_AVG --> Average of VDSL download speed
         < SPEED_DOWN_EVDSL_AVG --> Average of EVDSL download speed 
         < COMUNE --> Municipality Name
-        < PROVINCIA --> Province Name
-        < SHAPE_LENGTH --> Municipality perimeter
-        < SHAPE_AREA -->	Municipality area
 
         pulizia: 
             - filtrare x milano
