@@ -1,0 +1,154 @@
+*** TRASPORTI  ***
+
+'plan-de-voirie-acces-pietons-metro-et-parkings.csv'
+
+	Colonne:
+		- OBJECTID: int #ID_Unico
+		- NUM_PAVE: str #Codice Quartiere
+		- LIB_LEVEL: str 'ACCES METRO-PARKING - PIETONS' #Tipologia coordinate
+		- geo_shape: geo_shape #Coordinate geografiche area
+		- geo_point_2d: geo_point_2d #Coordinate geografiche punto
+
+'plan-de-voirie-mobiliers-urbains-abris-voyageurs-points-darrets-bus.csv'
+	
+	Colonne:
+		- OBJECTID: int #ID_Unico
+		- NUM_PAVE: str #Codice Quartiere
+		- geo_shape: geo_shape #Coordinate geografiche area
+		- geo_shape_2d: geo_point_2d #Coordinate geografiche punto
+
+'plan-de-voirie-pistes-cyclables-et-couloirs-de-bus.csv'
+
+	Colonne:
+		- OBJECTID: int #ID_Unico
+		- NUM_PAVE: str #Codice Quartiere
+		- geo_shape: geo_shape #Coordinate geografiche area
+		- geo_shape_2d: geo_point_2d #Coordinate geografiche punto
+
+'bornes-dappel-taxi.csv'
+		Colonne:- num_officiel: str #id stazione
+			- nom_station: str #nome stazione
+			- adresse_complete: str #indirizzo in all-caps
+			- y_l93: decimal #Coordinate y in lb93
+			- geo_shape: geo_shape #Coordinate geografiche area
+			- geo_point_2d: geo_point_2d #Coordinate geografiche punto
+
+'stationnement-sur-voie-publique-emprises'
+
+	Colonne:
+
+'liste-des-stations-de-services-de-vehicules'
+
+	Colonne:
+		- identifiant: str #codice identificativo
+		- code_post: str #CAP
+		- adresse: str #indirizzo
+		- geo_shape: geo_shape #Coordinate geografiche area
+		- geo_point_2d: geo_point_2d #Coordinate geografiche punto
+
+*** SCUOLE ***
+
+'secteurs-scolaires-colleges'
+
+	Colonne:
+		- Etiquette int #Nome dell'istituto
+		- Adresse 1 text #Indirizzo 1
+		- geo_shape geo_shape #Tipologia coordinate
+		- geo_point_2d geo_point_2d #Tipologia coordinate
+
+'secteurs-scolaires-ecoles-elementaires.csv'
+	Colonne:
+		- Etiquette int #Nome dell'istituto
+		- Adresse 1 text #Indirizzo 1
+		- geo_shape geo_shape #Tipologia coordinate
+		- geo_point_2d geo_point_2d #Tipologia coordinate
+
+'secteurs-scolaires-maternelles.csv'
+
+	Colonne:
+		- Etiquette int #Nome dell'istituto
+		- Adresse 1 text #Indirizzo 1
+		- geo_shape geo_shape #Tipologia coordinate
+		- geo_point_2d geo_point_2d #Tipologia coordinate
+
+*** CRIMINALITÀ***
+
+'donnee-data.gouv-2021-geographie2022-produit-le2022-07-27.csv'
+
+	Colonne:
+		- il codice geografico ufficiale del comune (COG_COMMUNE_2021)
+		- l'unità di conto associata a questo indicatore (unità di conto)
+		- il numero di incidenti per mille abitanti (o abitazioni in caso di furti con scasso) (rateper mille)
+		- la popolazione comunale dal censimento del comune (POP) per l'anno specificato da una variabile d'annata (millPOP)
+
+*** CODICI GEOGRAFICI ***
+
+	Colonne:
+		 - TYPECOM
+		 - COM
+		 - REG
+		 - DEP
+		 - NCC 
+		 - NCCENR
+		 - LIBELLE
+
+*** TERRENI ***
+
+'emprise-batie-et-non-batie'
+
+	Colonne: 
+		- OBJECTID #ID
+		- C_NAT
+		- X
+		- Y
+		- geo_shape
+		- geo_point_2d
+
+
+		
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+
+
+
+
+
+
+
+		
+
+
+
+
+
+		
+		
+
+		
+
+
+
+
+
+
+		
+		
+
+
+		
+
+
+		
+		
+		
