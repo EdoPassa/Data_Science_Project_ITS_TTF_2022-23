@@ -96,6 +96,17 @@ num (Numero): Numero di sequenza della fermata lungo il percorso
 id_ferm (Fermata): ID numerico della fermata
 Il presente dataset è stato rilasciato dal comune di Milano.
 
+    join 
+
+    select id_percorso, p.nome, id_fermata, f.nome from
+    percorsi_metro_milano as p
+	inner join
+    com_fermate_m_milano as com
+    on p.percorso = com.id_percorso
+    inner join
+    fermate_metro_milano as f
+    on com.id_fermata = f.id_amat
+
 ***
 
 - Nome: ATM - Fermate linee metropolitane
