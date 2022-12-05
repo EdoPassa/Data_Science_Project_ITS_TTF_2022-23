@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13a34829-71e6-4562-b48f-f33996c209c6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Mining_Milano.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Mining_Milano.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="13a34829-71e6-4562-b48f-f33996c209c6" name="Changes" comment="Updated Data_Mining_Milano.ipynb" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -44,5 +42,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updated Data_Mining_Milano.ipynb" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Data_Mining_Milano.ipynb" />
   </component>
 </project>
