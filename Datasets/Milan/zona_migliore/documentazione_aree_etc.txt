@@ -7,9 +7,7 @@ link: https://dati.comune.milano.it/it/dataset/ds58_economia_pubblici_esercizi_i
 
 documentazione:
     colonne[pubblici_esercizi_in_piano]
-        < DescrizioneVia >
-        < civico >
-        < codicevia >
+        < Denominazione_pe>
         < ID_NIL --> id Quartiere
         < NIL >
         < MUNICIPIO >
