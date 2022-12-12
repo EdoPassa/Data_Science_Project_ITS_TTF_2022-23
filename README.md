@@ -117,3 +117,14 @@ For the POC we decided base our work on 2 Jupiter Notebooks, one for Milan and o
 
 - **Exporting:**  We then exported the clusterd points ready to be visualized with power BI.
 
+## **Data Visualization(PowerBI)**
+
+For the Visualization, we used PowerBI as main software, using data founded in our Database and data created through Data Mining. We created 2 main sections:
+### **Map:** 
+In the Map Section, we used the Map Visual to show the different clusters created through our Machine Learning process and a Slicer Visual to filter and visualize
+
+![Milano_Map](https://cdn.discordapp.com/attachments/968817815589118012/1051856398289489970/Immagine_2022-12-11_173050.png)
+### **Analysis:** 
+In the Analysis Section, we used the Map Visual in order to show other Analysis topics such as, the Railway Station, Subway Station, Schools and Public Transport. We also used the Clustered Column Chart Visual to show different Trends through the years.
+
+![Milano_Analysis](https://cdn.discordapp.com/attachments/968817815589118012/1051856397698076692/Immagine_2022-12-11_173015.png)
